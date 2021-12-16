@@ -16,7 +16,7 @@ check.addEventListener("click", () => {
     //    console.log(country.value);
     //    console.log(city.value);
 
-    let key = `15db9853b0d0dcc47b3a14626e3d15c4`;
+    let key = `8db2e8e2a9ad0a9ac75a0427d064f081`;
     let url = `http://api.openweathermap.org/data/2.5/weather?q=${city.value},${country.value}&lang=en&units=metric&appid=${key}`;
 
     fetch(url).then(response => {
